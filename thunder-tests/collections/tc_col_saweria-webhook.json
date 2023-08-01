@@ -1,0 +1,28 @@
+{
+    "_id": "325c7158-6310-4094-970f-8ffb8fbd776d",
+    "colName": "saweria-webhook",
+    "created": "2023-08-01T07:16:05.720Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "58a3295f-1a7a-49ec-ad3d-4213682566ba",
+            "colId": "325c7158-6310-4094-970f-8ffb8fbd776d",
+            "containerId": "",
+            "name": "webhook",
+            "url": "turkey-amazed-regularly.ngrok-free.app/saweria/webhook",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-08-01T07:16:21.518Z",
+            "modified": "2023-08-01T07:18:15.092Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"version\": \"2022.01\",\n  \"created_at\": \"2021-01-01T12:00:00+00:00\",\n  \"id\": \"00000000-0000-0000-0000-000000000000\",\n  \"type\": \"donation\",\n  \"amount_raw\": 69420,\n  \"cut\": 3471,\n  \"donator_name\": \"Someguy\",\n  \"donator_email\": \"someguy@example.com\",\n  \"donator_is_user\": false,\n  \"message\": \"THIS IS A FAKE MESSAGE! HAVE A GOOD ONE\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "_id": "c129b128-4b77-4a13-997a-3b3877f2605e",
+    "colName": "tuya",
+    "created": "2023-08-01T07:18:27.973Z",
+    "sortNum": 20000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3d71a7eb-0323-4353-9057-4c0bfb49d019",
+            "colId": "c129b128-4b77-4a13-997a-3b3877f2605e",
+            "containerId": "",
+            "name": "dimmin",
+            "url": "turkey-amazed-regularly.ngrok-free.app/tuya/dimmin?id=2",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-08-01T07:26:40.187Z",
+            "modified": "2023-08-01T08:10:41.611Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f84edbc0-98d5-4c20-9ac7-3c4422cd051f",
+            "colId": "c129b128-4b77-4a13-997a-3b3877f2605e",
+            "containerId": "",
+            "name": "dimmax",
+            "url": "turkey-amazed-regularly.ngrok-free.app/tuya/dimmax?id=2",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-08-01T07:26:59.579Z",
+            "modified": "2023-08-01T08:17:32.188Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "76b1a847-91c9-4227-a5e1-539fc1056ffe",
+            "colId": "c129b128-4b77-4a13-997a-3b3877f2605e",
+            "containerId": "",
+            "name": "turn on",
+            "url": "turkey-amazed-regularly.ngrok-free.app/tuya/turnon?id=2",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-08-01T08:14:13.778Z",
+            "modified": "2023-08-01T08:17:19.219Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "4a3afcb1-fcb3-4731-b272-c13b9e040998",
+            "colId": "c129b128-4b77-4a13-997a-3b3877f2605e",
+            "containerId": "",
+            "name": "turn off",
+            "url": "turkey-amazed-regularly.ngrok-free.app/tuya/turnoff?id=2",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-08-01T08:14:26.276Z",
+            "modified": "2023-08-01T08:17:14.837Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
