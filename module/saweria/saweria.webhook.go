@@ -52,5 +52,4 @@ func dropWeapon() {
 }
 
 func allChat() {
-
 }
