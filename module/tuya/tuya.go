@@ -41,6 +41,7 @@ func Init(r *gin.Engine) {
 	})
 	r.POST(routes.Tuya_turnon, func(ctx *gin.Context) {
 		id := ctx.Request.URL.Query().Get("id")
+		fmt.Println("id:",id)
 		if id == "" {
 			ctx.JSON(http.StatusInternalServerError, gin.H{
 				"error": "required ID in param",
